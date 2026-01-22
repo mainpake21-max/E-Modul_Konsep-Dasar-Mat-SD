@@ -1,0 +1,1864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxanbnsnfns00001100101" font="Open Sans" controllayout="npnxanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="E-Modul Konsep Dasar Mat SD" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001100101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001100101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6S2I5MsGqxE" displaytext="Cover Depan" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6S2I5MsGqxE.6ATQdmdjTrO" displaytext="Cover Depan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SfOYz55X4B" displaytext="Menu Bab 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SfOYz55X4B.6qOyupJaDoc" displaytext="Menu Materi BAB 1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5rdtyWfw3MR" displaytext="Materi 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5rdtyWfw3MR.6ih7GRo25YB" displaytext="Cov Materi 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6WAWr7UYDVv" displaytext="1.1 PL" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6JxrrXZT6NB" displaytext="1.2 SL" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6oxK6IaNVvg" displaytext="1.2 SL b" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5XZ6PFDSzgv" displaytext="1.2 SL c" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6nQMjrnDKI8" displaytext="1.2 SL d" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6QXWw7Oe1c9" displaytext="Latihan Soal 1.2 " expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5cU1aZWkho1" displaytext="Latihan Soal 1.3 a" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5Vv96tCuyN2" displaytext="Latihan Soal 1.3 b" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6k9XC3eQKmq" displaytext="Latihan Soal 1.3 c" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.66Q9udx4Kn4" displaytext="1.3 P" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5uR6owivekj" displaytext="1.4 PBA" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5eKd6alfOyA" displaytext="1.4 PBA b" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6FnATSYoV2K" displaytext="1.4 PBA c" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5wMdxoe70Db" displaytext="Latihan Soal 1.4" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.666uJuySFwM" displaytext="Latihan Soal 1.5" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.6LzEUSJEmZZ" displaytext="1.5 P" expand="false" type="slide" />
+            <slidelink slideid="_player.5rdtyWfw3MR.5dsFSEEzdEB" displaytext="1.5 P b" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5rRvIevcMu2" displaytext="Rangkuman 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5rRvIevcMu2.6hX2UmA8bCv" displaytext="Rangkuman 1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6LQ997EHNgt" displaytext="Evaluasi 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6LQ997EHNgt.5jofP48GZDa" displaytext="Evaluasi 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6LQ997EHNgt.6D8f7nKEjY4" displaytext="Soal Evaluasi 1.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6LQ997EHNgt.6pUcGj3q6vi" displaytext="Soal Evaluasi 1.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6LQ997EHNgt.5WHgo0soPSn" displaytext="Soal Evaluasi 1.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6LQ997EHNgt.6EKIENaaOL1" displaytext="Soal Evaluasi 1.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6LQ997EHNgt.6RyWrSUndZ9" displaytext="Soal Evaluasi 1.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FhevUIqjua" displaytext="Glosarium 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6FhevUIqjua.6gWMWQMHGKK" displaytext="Glosarium 1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5qUm2u2Ik1a" displaytext="Referensi" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5qUm2u2Ik1a.5rJ8N7bEs0k" displaytext="Referensi" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5peWx9HlAUQ" displaytext="Petunjuk Penggunaan" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5peWx9HlAUQ.5i9rpfYcQ8A" displaytext="Petunjuk Penggunaan 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5peWx9HlAUQ.5lipRAWEVK0" displaytext="Petunjuk Penggunaan 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6B38JuQjRRr" displaytext="Profil Pengembang" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6B38JuQjRRr.5fnw97DttNX" displaytext="Profil Pengembang" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SPhuAzM4QL" displaytext="Tujuan Pembelajaran 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SPhuAzM4QL.6AKGY09vJKZ" displaytext="Tujuan Pembelajaran 1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6o4YaLbUNMJ" displaytext="Menu BAB UMUM" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6o4YaLbUNMJ.66TZaavr7BA" displaytext="Menu BAB" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JTRjziFMxf" displaytext="Menu Bab 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JTRjziFMxf.5oxODAQAu8u" displaytext="Menu Bab 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ob5rPaw7Ql" displaytext="Tujuan Pembelajaran 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ob5rPaw7Ql.6iWvxmBjXHV" displaytext="Tujuan Pembelajaran 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6aq0iSxbk51" displaytext="Materi 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6aq0iSxbk51.6U2DjSMQ1xb" displaytext="Cov Materi 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6YgLOtUeHkb" displaytext="Latihan Soal 2.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.5bLxIET9UmI" displaytext="2.2 PK" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.62l73Arbq4e" displaytext="2.2 PK b" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.5c6c2MAvX7m" displaytext="Latihan Soal 2.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6OvohApkOBZ" displaytext="2.3 PD" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.67JwN6ZBvAi" displaytext="2.3 PD b" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6b9GlqAtKQq" displaytext="Latihan Soal 2.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.5e0uhbcvmmp" displaytext="2.4 PI" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6ILiZhBbepP" displaytext="2.4 PI b" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6Hfe7eomP8N" displaytext="Latihan Soal 2.5" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6gmonZW3jj9" displaytext="2.5 PB" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.5deKEgDbkwy" displaytext="2.5 PB b" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.5k3bH0d9b8O" displaytext="Latihan Soal 2.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.6EaF4tNv0He" displaytext="2.1 PN" expand="false" type="slide" />
+            <slidelink slideid="_player.6aq0iSxbk51.5Urmq6jrNy6" displaytext="2.1 PN b" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5oHvPSap9Za" displaytext="Rangkuman 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5oHvPSap9Za.6hXSirPNzFj" displaytext="Rangkuman 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.67rQI2EM8iQ" displaytext="Evaluasi 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.67rQI2EM8iQ.6ECho6qWnHV" displaytext="Evaluasi 2" expand="false" type="slide" />
+            <slidelink slideid="_player.67rQI2EM8iQ.6FHAGjiVQZz" displaytext="Soal Evaluasi 2.1" expand="false" type="slide" />
+            <slidelink slideid="_player.67rQI2EM8iQ.62xtsVzhJ95" displaytext="Soal Evaluasi 2.2" expand="false" type="slide" />
+            <slidelink slideid="_player.67rQI2EM8iQ.6VKHMjxLhvX" displaytext="Soal Evaluasi 2.3" expand="false" type="slide" />
+            <slidelink slideid="_player.67rQI2EM8iQ.5h4JAi5spNl" displaytext="Soal Evaluasi 2.4" expand="false" type="slide" />
+            <slidelink slideid="_player.67rQI2EM8iQ.6eXjwHmeZmk" displaytext="Soal Evaluasi 2.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5xGX4Im3TkD" displaytext="Glosarium 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5xGX4Im3TkD.69duTWdIss0" displaytext="Glosarium 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5w6ogkcICl5" displaytext="Menu Bab 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5w6ogkcICl5.6M5eKZLGIwg" displaytext="Menu Bab 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68pkxaDlfFl" displaytext="Menu Bab 4" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.68pkxaDlfFl.5YDaJu7GqWb" displaytext="Menu Bab 4" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gMrNknNxlW" displaytext="Menu Bab 5" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gMrNknNxlW.6lEtXWAj23Y" displaytext="Menu Bab 5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6M2GimB7XMe" displaytext="Menu Bab 6" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6M2GimB7XMe.6cJpH677SFn" displaytext="Menu Bab 6" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.60TqPRlPowe" displaytext="Menu Bab 7" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.60TqPRlPowe.5YxtOdjpSos" displaytext="Menu Bab 7" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5weuvvICpH7" displaytext="Menu Bab 8" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5weuvvICpH7.5zG1j6vyn2B" displaytext="Menu Bab 8" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6qJ0AInBtix" displaytext="Menu Bab 9" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6qJ0AInBtix.6TO7ggLovth" displaytext="Menu Bab 9" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6IxfSQh5RMS" displaytext="Menu Bab 10" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6IxfSQh5RMS.6ULECVk564p" displaytext="Menu Bab 10" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5xTiBxQQslW" displaytext="Tujuan Pembelajaran 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5xTiBxQQslW.60Gl5Ng70nV" displaytext="Tujuan Pembelajaran 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6LuzgNRhA9r" displaytext="Tujuan Pembelajaran 4" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6LuzgNRhA9r.6X8P9I3FWYT" displaytext="Tujuan Pembelajaran 4" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5W8EHvR0wBO" displaytext="Tujuan Pembelajaran 5" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5W8EHvR0wBO.6glyghTIQDx" displaytext="Tujuan Pembelajaran 5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.674SNRqvU1m" displaytext="Tujuan Pembelajaran 6" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.674SNRqvU1m.6o3oqeqWGQy" displaytext="Tujuan Pembelajaran 6" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5VXWD6JeUjT" displaytext="Tujuan Pembelajaran 7" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5VXWD6JeUjT.5qN1xYra45E" displaytext="Tujuan Pembelajaran 7" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.637wrP8QqPc" displaytext="Tujuan Pembelajaran 8" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.637wrP8QqPc.6lRCsqIO0CS" displaytext="Tujuan Pembelajaran 8" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ZsYeZYPBfe" displaytext="Tujuan Pembelajaran 9" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ZsYeZYPBfe.6S3WO9Juw16" displaytext="Tujuan Pembelajaran 9" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5y2IQoRL1dA" displaytext="Tujuan Pembelajaran 10" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5y2IQoRL1dA.6cKrJK8c0id" displaytext="Tujuan Pembelajaran 10" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6oNzaZ0IRmV" displaytext="Materi 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6oNzaZ0IRmV.6XqWkC71gof" displaytext="Cov Materi 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6Hdetu7nJWv" displaytext="3.1 KSP" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.66c1fV0x2Cx" displaytext="3.1 KSP b" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6UBqegHOupI" displaytext="3.1 KSP c" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6YIaxt1tXK4" displaytext="Latihan Soal 3.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6NAfV48wJTn" displaytext="3.2 ISP" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.67rkUAu0TvV" displaytext="3.2 ISP b" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6M7UYk4EbIM" displaytext="3.2 ISP c" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6XvhsPcMa20" displaytext="Latihan Soal 3.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.61V8tLZCTBF" displaytext="3.3 KSP" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.5ufLthuJ8Ik" displaytext="3.3 KSP b" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.5wKcB3tJ0nV" displaytext="3.3 KSP c" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.5k3HFZ35bA4" displaytext="Latihan Soal 3.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.6ad2Ai0WgDG" displaytext="3.4 Kaitan" expand="false" type="slide" />
+            <slidelink slideid="_player.6oNzaZ0IRmV.5nvqRrKm68E" displaytext="3.4 Kaitan b" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6RJNNdAh7uy" displaytext="Materi 4" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6RJNNdAh7uy.6XBotu4dWXl" displaytext="Cov Materi 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5nPRYSz1nwx" displaytext="4.1 TSP" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.6Fo3HfgnV1l" displaytext="4.1 TSP b" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.65ea7ST4pzA" displaytext="4.1 TSP c" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.67FbN115hEE" displaytext="Latihan Soal 4.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.64ARWjQo5SJ" displaytext="4.2 KSP" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5uqbfzjWgFV" displaytext="4.2 KSP b" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.6LPTpYVPzxX" displaytext="Latihan Soal 4.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5r6xdrtc2sq" displaytext="Latihan Soal 4.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.6ejAyyodge1" displaytext="Latihan Soal 4.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.6EcDMqCSFWW" displaytext="4.4 TSP Kunci" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5Vth1g7P7GU" displaytext="4.3 TSP Kunci" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5cnq3Xe3QmG" displaytext="4.3 KSP" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5VmiFviYMZY" displaytext="4.3 KSP b" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5n4XxAEjJKd" displaytext="4.4 Ev" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5yVZWcoiTIE" displaytext="4.4 Ev b" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.6pGSI0Tu6NI" displaytext="4.4 Ev c" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.5bMgL9lFAEh" displaytext="4.1 TSP Kunci" expand="false" type="slide" />
+            <slidelink slideid="_player.6RJNNdAh7uy.625jaQ00Y8J" displaytext="4.2 TSP Kunci" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5mU9yp1MwFx" displaytext="Materi 5" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5mU9yp1MwFx.6gkIk7Dr7H1" displaytext="Cov Materi 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6UE5ApuzxKf" displaytext="Latihan Soal 5.1 a" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6OyIi1nU24Z" displaytext="Latihan Soal 5.1 b" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6EqTFkVsreQ" displaytext="Latihan Soal 5.1 d" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6c72ZQt32OM" displaytext="Latihan Soal 5.2 a" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6RpPwY6IvuY" displaytext="Latihan Soal 5.2 b" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6kFfGQkVaNR" displaytext="Latihan Soal 5.2 c" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6QGodLEfdgG" displaytext="Latihan Soal 5.2 d" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6LABMDY6QzC" displaytext="Menyimpulkan 5.1" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.6A89m7K4nTi" displaytext="Menyimpulkan 5.2" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.5xpGvURU5Lu" displaytext="Latihan Soal 5.1 e" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.5sX81ZKHyT1" displaytext="Latihan Soal 5.2 e" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.64hB7fjm7Px" displaytext="Latihan Soal 5.1 f" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.5ilvLzfFa3O" displaytext="Latihan Soal 5.2 f" expand="false" type="slide" />
+            <slidelink slideid="_player.5mU9yp1MwFx.5V8Xir4f6br" displaytext="Latihan Soal 5.1 c" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6bzN6lP6keq" displaytext="Materi 6" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6bzN6lP6keq.64vgSsdAgXi" displaytext="Cov Materi 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.6CQncXLprKz" displaytext="6.1 P" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.6iLG7b736tu" displaytext="6.2 H" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.6QHhz5sUsN8" displaytext="6.2 H b" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.6QZfos5v1W5" displaytext="6.1 P b" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.5vWsldwsods" displaytext="6.1 P c" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.6rfIKC6F0PA" displaytext="Latihan Soal 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6bzN6lP6keq.62HYujMSBEv" displaytext="6 H Kunci" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JFlWOy5KvN" displaytext="Materi 7" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JFlWOy5KvN.6VAdHyFJ3Vc" displaytext="Cov Materi 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.5y7dcHUQ7TL" displaytext="7.1 PM" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.5b9m5e0MCtf" displaytext="7.2 Skema" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.5eBvAI9d6Z5" displaytext="7.2 Skema b" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.6mopCcLWTLI" displaytext="Latihan Soal 7.2 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.6hnFDQbwQ8G" displaytext="Latihan Soal 7.2 d" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.5t16Gd6TFfL" displaytext="Latihan Soal 7.2 e" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.6n37m5qTkOR" displaytext="Latihan Soal 7.2 f" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.62M4JAJlgSa" displaytext="Latihan Soal 7.2 g" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.5rPTwuhUOoS" displaytext="Latihan Soal 7.2 h" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.5vzcCk0TKEm" displaytext="Latihan Soal 7.2 c" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.6EC4Oz9clFm" displaytext="Latihan Soal 7.2 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.6LzJnTkJUKQ" displaytext="7.1 PM b" expand="false" type="slide" />
+            <slidelink slideid="_player.6JFlWOy5KvN.69K0ZIzyuGr" displaytext="Latihan Soal 7.1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6QUifxWlfYZ" displaytext="Materi 8" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QUifxWlfYZ.68im9RRqZpC" displaytext="Cov Materi 8" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6hBgMeJRgGr" displaytext="8.1 P" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.60tBvxyY9kZ" displaytext="8.2 KH" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5kfrBSM5NgY" displaytext="8.2 KH b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6XJLRQ8nh11" displaytext="Latihan Soal 8.2 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.60BRb0CLXRX" displaytext="Latihan Soal 8.2 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6qAJyvcBubp" displaytext="8.1 P b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6UvtH4jbv67" displaytext="Latihan Soal 8.1 d" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5xttdQmQ3CW" displaytext="Latihan Soal 8.1 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5saRxt8W5rF" displaytext="Latihan Soal 8.1 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6UreNySIZpM" displaytext="Latihan Soal 8.1 c" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6OAJL2rRfRU" displaytext="8.3 HK" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6QEfVHhP8JV" displaytext="8.4 IH" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5wE0bPFCZe7" displaytext="8.4 IH b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6mKbTfHmjrT" displaytext="Latihan Soal 8.4 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6hEZJwxkftG" displaytext="Latihan Soal 8.4 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5WhKSloEyde" displaytext="8.3 HK b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5wCfeFjFahb" displaytext="Latihan Soal 8.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5dA6tPerzON" displaytext="8.5 GH" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6gjrw9X2m4Y" displaytext="8.6 SH" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6oGesqwaJKc" displaytext="8.7 KH" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.65MDsKuGZ9g" displaytext="8.8 HB" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5qeImipsoAu" displaytext="8.9 HK" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6ZWaCtiNwo9" displaytext="8.9 HK b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6pWtzIqklcH" displaytext="Latihan Soal 8.9 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6SgExNURcUI" displaytext="Latihan Soal 8.9 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5py8I4imJak" displaytext="8.8 HB b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.63mMxhslENt" displaytext="Latihan Soal 8.8 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6mvP47UKfX9" displaytext="Latihan Soal 8.8 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5XitU6mpdsE" displaytext="8.7 KH b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5XjiluQtqJH" displaytext="Latihan Soal 8.7 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5YEEgifDHfa" displaytext="Latihan Soal 8.7 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5a3C1kzwcV1" displaytext="8.6 SH b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6BlTsXAAOMz" displaytext="Latihan Soal 8.6 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6rOe5tR6FMF" displaytext="Latihan Soal 8.6 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.5b4Nt3nMihN" displaytext="8.5 GH b" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6djMHV3T7Pv" displaytext="Latihan Soal 8.5 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6QUifxWlfYZ.6Fal2vjBpAO" displaytext="Latihan Soal 8.5 b" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5iCYMOfjtvV" displaytext="Materi 9" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5iCYMOfjtvV.6iTH8N0WBZA" displaytext="Cov Materi 9" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.5qEkVVMXe84" displaytext="9.1 KR" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6Rr2i52LW1Z" displaytext="9.3 IR" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.5VM62wGrkjr" displaytext="9.3 IR b" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6fKK9MEYWsG" displaytext="Latihan Soal 9.3" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6r6dZkn1NPJ" displaytext="9.1 KR b" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6kIrpD8thCB" displaytext="Latihan Soal 9.1 a" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.5uBKePogqiz" displaytext="9.2 JJR" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.65YZw3KBHMD" displaytext="9.2.1" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6Mcn8UqHFqA" displaytext="9.2.2" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6CHJCBUv9uX" displaytext="9.2.3" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6XkySAbYhN1" displaytext="9.2.4" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.62X1pPpyBjs" displaytext="Latihan Soal 9.2 a" expand="false" type="slide" />
+            <slidelink slideid="_player.5iCYMOfjtvV.6cKFbbos7MX" displaytext="Latihan Soal 9.2 b" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6CdAXzts7Z8" displaytext="Materi 10" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6CdAXzts7Z8.68JD7mc4YnZ" displaytext="Cov Materi 10" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6qDKH5l8xZc" displaytext="10.1 KF" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6LpjBXo7KRe" displaytext="10.1 KF 0" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5xAZlHHz6CH" displaytext="10.1 KF 00" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5tWVLKpuwBo" displaytext="10.1 KF c" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.67RSdNZnobf" displaytext="10.1 KF b" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5p5ZGu4eDGi" displaytext="Latihan Soal 10.1 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6YTxdR9RNhU" displaytext="10.1 000" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5uhrE0S8ciV" displaytext="Latihan Soal 10.1 b" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.66xM9G3gyVu" displaytext="Latihan Soal 10.1 c" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6T6xo63sOEd" displaytext="10.2 JJF" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6I8WIt9tUor" displaytext="Latihan Soal 10.2 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5ge3SDshUNX" displaytext="10.2.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6LAN2TgVdvq" displaytext="10.2.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5YHX6NEGJ6i" displaytext="10.2.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5bjWyio4noo" displaytext="10.2.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5x2R8lyFZLz" displaytext="10.3 MA" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6MSO7s6d49r" displaytext="10.4 ISF" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6EPagvqXd8w" displaytext="10.4 ISF b" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.5qmFppw111Y" displaytext="Latihan Soal 10.4 a" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6jqUB8vlnOz" displaytext="10.3 MA b" expand="false" type="slide" />
+            <slidelink slideid="_player.6CdAXzts7Z8.6SGF9i64Jx8" displaytext="Latihan Soal 10.3 a" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6n8u9ZaPc6v" displaytext="Rangkuman 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6n8u9ZaPc6v.6KLqHOwm3Rx" displaytext="Rangkuman 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6D3WEm27esw" displaytext="Rangkuman 4" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6D3WEm27esw.6691NNLFbcl" displaytext="Rangkuman 4" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69M3a9RrwLj" displaytext="Rangkuman 5" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69M3a9RrwLj.5XpkmA0CULU" displaytext="Rangkuman 5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5sBGQf9ulbK" displaytext="Rangkuman 6" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5sBGQf9ulbK.68FI9F9nBm3" displaytext="Rangkuman 6" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ptgLLl5Aeg" displaytext="Rangkuman 7" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ptgLLl5Aeg.6HfKVK8DQyk" displaytext="Rangkuman 7" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5djr8yP78GR" displaytext="Rangkuman 8" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5djr8yP78GR.6D9uCFg1uHP" displaytext="Rangkuman 8" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MM92yAySGl" displaytext="Rangkuman 9" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6MM92yAySGl.6YC0Pjfbl1C" displaytext="Rangkuman 9" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6d1N3d9vQGC" displaytext="Rangkuman 10" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6d1N3d9vQGC.6GVZ5HjN03w" displaytext="Rangkuman 10" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Gk8mJ5M46O" displaytext="Evaluasi 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Gk8mJ5M46O.67GObwczLO6" displaytext="Evaluasi 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Gk8mJ5M46O.6F3fuJecTTD" displaytext="Soal Evaluasi 3.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Gk8mJ5M46O.5WUO2ymfO2d" displaytext="Soal Evaluasi 3.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Gk8mJ5M46O.5u33eeD4Hbt" displaytext="Soal Evaluasi 3.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Gk8mJ5M46O.5icsXkQkqca" displaytext="Soal Evaluasi 3.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6Gk8mJ5M46O.6Bg1Frpy39z" displaytext="Soal Evaluasi 3.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5rVNqAjRY2c" displaytext="Evaluasi 4" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5rVNqAjRY2c.5VLD7farXPf" displaytext="Evaluasi 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5rVNqAjRY2c.6d72rmk8UDW" displaytext="Soal Evaluasi 4.1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rVNqAjRY2c.632VN9XnBcW" displaytext="Soal Evaluasi 4.2" expand="false" type="slide" />
+            <slidelink slideid="_player.5rVNqAjRY2c.6aeBWxPESDk" displaytext="Soal Evaluasi 4.3" expand="false" type="slide" />
+            <slidelink slideid="_player.5rVNqAjRY2c.6KpDMnA248u" displaytext="Soal Evaluasi 4.4" expand="false" type="slide" />
+            <slidelink slideid="_player.5rVNqAjRY2c.6JRdpemarbY" displaytext="Soal Evaluasi 4.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6DmBCpK4EZY" displaytext="Evaluasi 5" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DmBCpK4EZY.5mVcEMvuEWK" displaytext="Evaluasi 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6DmBCpK4EZY.5iKsMZhwnUV" displaytext="Soal Evaluasi 5.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6DmBCpK4EZY.6bzZsDmWrPY" displaytext="Soal Evaluasi 5.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6DmBCpK4EZY.64tIEupQrpT" displaytext="Soal Evaluasi 5.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6DmBCpK4EZY.6dneTHXi9Qx" displaytext="Soal Evaluasi 5.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6DmBCpK4EZY.5kJdLEe0TYM" displaytext="Soal Evaluasi 5.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gmxwYKpR6d" displaytext="Evaluasi 6" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gmxwYKpR6d.5qZbPIJprnz" displaytext="Evaluasi 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6gmxwYKpR6d.5ZgxrF0KDEU" displaytext="Soal Evaluasi 6.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6gmxwYKpR6d.5ogwYSfK290" displaytext="Soal Evaluasi 6.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6gmxwYKpR6d.6FFGePcxLRo" displaytext="Soal Evaluasi 6.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6gmxwYKpR6d.6m5XSaXMG5c" displaytext="Soal Evaluasi 6.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6gmxwYKpR6d.5lSoAN03CY3" displaytext="Soal Evaluasi 6.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5YTeIZQAaEw" displaytext="Evaluasi 7" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5YTeIZQAaEw.6jTlnq847RL" displaytext="Evaluasi 7" expand="false" type="slide" />
+            <slidelink slideid="_player.5YTeIZQAaEw.5r1QwbKly1Q" displaytext="Soal Evaluasi 7.1" expand="false" type="slide" />
+            <slidelink slideid="_player.5YTeIZQAaEw.5oWLVT9aUND" displaytext="Soal Evaluasi 7.2" expand="false" type="slide" />
+            <slidelink slideid="_player.5YTeIZQAaEw.5lKPhKEKa2E" displaytext="Soal Evaluasi 7.3" expand="false" type="slide" />
+            <slidelink slideid="_player.5YTeIZQAaEw.5tDiMeL4Sbb" displaytext="Soal Evaluasi 7.4" expand="false" type="slide" />
+            <slidelink slideid="_player.5YTeIZQAaEw.5mzE5Pf2AJf" displaytext="Soal Evaluasi 7.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ZdLA6LIwGj" displaytext="Evaluasi 8" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ZdLA6LIwGj.5eqK1XvfCxI" displaytext="Evaluasi 8" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZdLA6LIwGj.6KTnuaBk1mU" displaytext="Soal Evaluasi 8.1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZdLA6LIwGj.5ikqd6wGeoD" displaytext="Soal Evaluasi 8.2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZdLA6LIwGj.6iqMSCHJsi0" displaytext="Soal Evaluasi 8.3" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZdLA6LIwGj.6WaXuc3x5Xp" displaytext="Soal Evaluasi 8.4" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZdLA6LIwGj.5tjW7OvvGVS" displaytext="Soal Evaluasi 8.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5Vs5x0ctv0m" displaytext="Evaluasi 9" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5Vs5x0ctv0m.5XDEcppNlyW" displaytext="Evaluasi 9" expand="false" type="slide" />
+            <slidelink slideid="_player.5Vs5x0ctv0m.5c74w2H5NXo" displaytext="Soal Evaluasi 9.1" expand="false" type="slide" />
+            <slidelink slideid="_player.5Vs5x0ctv0m.6KN2JLUdEKK" displaytext="Soal Evaluasi 9.2" expand="false" type="slide" />
+            <slidelink slideid="_player.5Vs5x0ctv0m.65xzsH4ACNU" displaytext="Soal Evaluasi 9.3" expand="false" type="slide" />
+            <slidelink slideid="_player.5Vs5x0ctv0m.5dRqdektA3j" displaytext="Soal Evaluasi 9.4" expand="false" type="slide" />
+            <slidelink slideid="_player.5Vs5x0ctv0m.6PsUWaQYyV8" displaytext="Soal Evaluasi 9.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5y1mzHJRa8f" displaytext="Evaluasi 10" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5y1mzHJRa8f.5zuV7fzwOuS" displaytext="Evaluasi 10" expand="false" type="slide" />
+            <slidelink slideid="_player.5y1mzHJRa8f.6GAyQ5ZE7Zh" displaytext="Soal Evaluasi 10.1" expand="false" type="slide" />
+            <slidelink slideid="_player.5y1mzHJRa8f.5YZRSWXXLpr" displaytext="Soal Evaluasi 10.2" expand="false" type="slide" />
+            <slidelink slideid="_player.5y1mzHJRa8f.6cFFgTriwAI" displaytext="Soal Evaluasi 10.3" expand="false" type="slide" />
+            <slidelink slideid="_player.5y1mzHJRa8f.5p8G39FAg4b" displaytext="Soal Evaluasi 10.4" expand="false" type="slide" />
+            <slidelink slideid="_player.5y1mzHJRa8f.6aLtbvcC6YF" displaytext="Soal Evaluasi 10.5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hb9jdewUZV" displaytext="Glosarium 3" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hb9jdewUZV.5zt9kxBex40" displaytext="Glosarium 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6YisBBWFiEP" displaytext="Glosarium 4" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6YisBBWFiEP.6Kfwe8NVEPK" displaytext="Glosarium 4" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hr8hPIid2E" displaytext="Glosarium 5" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hr8hPIid2E.673y4kcw6y0" displaytext="Glosarium 5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5k1sheVA4kx" displaytext="Glosarium 6" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5k1sheVA4kx.5w6t5hNcJdI" displaytext="Glosarium 6" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5Y4dlXqMwdI" displaytext="Glosarium 7" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5Y4dlXqMwdI.6RLmWOveays" displaytext="Glosarium 7" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5xtMjPznfug" displaytext="Glosarium 8" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5xtMjPznfug.5bagXqHR4KD" displaytext="Glosarium 8" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6pjNMfsd1GL" displaytext="Glosarium 9" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6pjNMfsd1GL.6IoaHYw9OiF" displaytext="Glosarium 9" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6oLxoV94Z3I" displaytext="Glosarium 10" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6oLxoV94Z3I.5YF0UhWFUOU" displaytext="Glosarium 10" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
